@@ -1,6 +1,6 @@
 # Onfleet Ruby SDK
 
-Ruby SDK for Onfleet.com's API. This is a fork of [nwbar/onfleet](http://github.com/nwbar/onfleet) that adds support for Onfleet's metadata query APIs, and for inline recipient/destination creation when creating tasks.
+Ruby SDK for Onfleet.com's API. This is a fork of [nbwar/onfleet](https://github.com/nbwar/onfleet) that adds support for Onfleet's metadata query APIs, and for inline recipient/destination creation when creating tasks.
 
 **This is NOT an official SDK**. [Official Documentation](http://docs.onfleet.com/docs/). The entirety of the response payload is accessible by instance methods. The raw response is accessible through the `params` instance method on all objects.
 
