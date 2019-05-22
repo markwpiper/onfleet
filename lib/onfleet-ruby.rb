@@ -65,7 +65,9 @@ module Onfleet
   private
     def self.request_headers
       {
-        Authorization: "Basic #{self.encoded_api_key}"
+        Authorization: "Basic #{self.encoded_api_key}",
+        content_type: :json,
+        accept: :json
       }
     end
 
