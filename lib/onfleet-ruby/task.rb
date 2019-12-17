@@ -13,7 +13,7 @@ module Onfleet
     end
 
     def self.complete id, params
-      url = "#{self.url}/#{id}/complete"
+      url = "#{self.api_url}/#{id}/complete"
       Onfleet.request(url, :post, params)
       true
     end
